@@ -17,3 +17,6 @@ Features
 - Removing Done Tasks: Click the Delete Checked button to clear away any items you've already completed.
 
 -  Click the Clear All button to remove every item from your list and start completely clean.
+
+
+<img width="2368" height="1294" alt="image" src="https://github.com/user-attachments/assets/909acf8d-7330-4d23-9edf-d920b5c4d731" />
