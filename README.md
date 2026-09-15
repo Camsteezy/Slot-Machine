@@ -1,22 +1,51 @@
-# To-Do-List
-To Do list that allows you to add , check off , and cross out items on the list
+
+Sonic the Hedgehog Slot Machine
+A fun, Sonic-themed slot machine game built using HTML, CSS, and JavaScript. Spin the 3 reels, manage your balance, and test your luck to hit the jackpot
 
 Features
-- Add New Tasks: Easily add any task or reminder to your list.
+Starting Balance: Begin with $1,000 in your wallet.
 
-- Check Off Completed Tasks: Mark items as finished when you complete them so you can keep track of your progress.
+2 Betting Options:
 
-- Delete Checked Items: Remove all completed tasks at once to keep your list clean and focused on what remains.
+Min Bet: Bet $5 per spin.
 
-- Clear the Whole List: Start fresh whenever you want by clearing all tasks with a single action.
+Max Bet: Bet $20 per spin.
 
-- Adding a Task: Type your task into the input box and click Add (or press Enter).
+3 Reels & 5 Sonic Icons: Uses image assets for 5 classic symbols:
 
-- Completing a Task: Click or tap on a task to check it off.
+- Rings 
 
-- Removing Done Tasks: Click the Delete Checked button to clear away any items you've already completed.
+ - Dr. Eggman 
 
--  Click the Clear All button to remove every item from your list and start completely clean.
+- Tails 
+
+- Sonic 
+
+- Knuckles 
+
+Jackpot Multiplier: Match all 3 symbols on a single spin to win 7x your bet ("Bang money team")!
+
+Displays a friendly reminder when your balance is too low to place a bet.
+
+How to Play
+Place Your Bet: Click Min Bet ($5) or Max Bet ($20) to spin the reels.
+
+Watch the Reels: The 3 slot images will change randomly to display Sonic, Tails, Knuckles, Eggman, or Rings.
+
+Win or Lose:
+
+3 Matching Symbols: You win a 7x multiplier payout added to your balance!
+
+No Match: Your bet is lost to the house ("The house always wins").
+
+Out of Funds? If your balance drops below your chosen bet, you'll need to reevaluate your budget before playing again.
+
+Code Overview
+balance: Tracks current funds (starts at 1000).
+
+symbols: Array storing file paths to symbol images.
+
+slotMachine(bet): Main JavaScript function that handles deducting bets, randomly selecting symbol images, checking win conditions, and updating the display.
 
 
-<img width="2368" height="1294" alt="image" src="https://github.com/user-attachments/assets/909acf8d-7330-4d23-9edf-d920b5c4d731" />
+<img width="2497" height="1266" alt="image" src="https://github.com/user-attachments/assets/0e9eddaa-4a7f-4c15-8e4f-d5d1db179892" />
